@@ -1,6 +1,2 @@
 #!/bin/bash
-input="/etc/passwd"
-while read -r line 
-do
- echo "$line"
-done < "$input"
+while read -r line; do echo "$line"; done < "/etc/passwd"
